@@ -1,0 +1,62 @@
+header{
+    font-family: var(--fonte-serif);
+    background-color: var(--branco-azulado);
+    padding: 10px;
+    min-height: 100px;
+}
+
+header::after{
+    content: "";
+    display: block;
+    margin: 10px -10px -10px -10px;
+    height: 10px;
+    background-color: var(--azul-principal);
+}
+
+header img{
+    max-width: 210px;
+    /* margin: 0px 80px; */
+    /* padding: 0px 80px; */
+}
+
+header a{
+    margin: 0px 100px;
+}
+
+header nav, header img{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+header nav{
+    position: absolute;
+    margin-right: -100px;
+    right: 0px;
+    top: 50px;
+    transform: translate(-50%);
+}
+
+nav a{
+    margin: 10px;
+    text-decoration: none;
+    color: var(--azul-minimo);
+}
+
+nav a:hover{
+    color: var(--azul-principal);
+}
+
+header a.ativo{
+    color: var(--azul-principal);
+}
+
+ul.menu > li{
+    display: inline-block;
+}
+
+nav .sobre::after{
+    content: "\e313";
+    font-family: var(--fonte-icone);
+}
+
+/* resolver o que acontece com o submenu de Sobre */

@@ -1,0 +1,11 @@
+@import "fonts.css";
+@import "variables.css";
+@import "sanitize.css";
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+
+body{
+    font-family: var(--fonte-principal);
+    background-color: var(--branco-azulado);
+}

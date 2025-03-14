@@ -1,0 +1,230 @@
+.bem-vindo{
+    padding: 10px;
+    margin: 10px 0px 30px 0px;
+}
+
+.bem-vindo img{
+    max-width: 100%;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.29);
+    border-radius: 2px;
+    margin: 20px 0px;
+}
+
+.bem-vindo h1{
+    color: var(--azul-principal);
+    font-family: var(--fonte-serif);
+    font-size: 1.7em;
+}
+
+.bem-vindo p{
+    text-align: justify;
+    margin: 10px 0px 20px 0px;
+}
+
+.bem-vindo a{
+    text-decoration: none;
+    color: var(--branco-azulado);
+    background-color: var(--azul-principal);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.26);
+}
+
+.bem-vindo a:hover{
+    background-color: var(--azul-medio);
+}
+
+.bem-vindo a::after{
+    content: var(--seta-direita);
+    vertical-align: middle;
+    padding-left: 5px;
+    font-family: var(--fonte-icone);
+}
+
+.horario-missas{
+    background-color: var(--azul-principal);
+    padding: 30px;
+}
+
+.horario-missas h2{
+    margin: 10px 0px 30px 0px;
+    color: var(--branco-azulado);
+    text-align: center;
+    font-family: var(--fonte-serif);
+    font-size: 1.4em;
+}
+
+.horario{
+    margin: 30px 0px 30px 0px;
+    text-align: center;
+}
+
+.horario p{
+    color: var(--branco-azulado);
+    margin: 20px 0px 15px 0px;
+    font-size: 1.2em;
+}
+
+.horario strong{
+    color: var(--azul-principal);
+    background-color: var(--branco-azulado);
+    padding: 5px 50px;
+    border-radius: 5px;
+    margin: 0px;
+    font-size: 1.1em;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.097);
+}
+
+.transmissao{
+    display: inline-block;
+    background-color: var(--branco-azulado);
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.transmissao h3{
+    /* margin: 0px 0px 30px 0px; */
+    color: var(--branco-azulado);
+    background-color: var(--azul-principal);
+    border: 3px solid var(--branco-azulado);
+    border-radius: 10px;
+    text-align: center;
+    font-family: var(--fonte-serif);
+    padding: 5px;
+    margin: -15px -15px 30px -15px;
+    font-size: 1em;
+}
+
+.transmissao h3::before{
+    content: var(--icone-transmissao);
+    padding-right: 9px;
+    font-size: 1.3em;
+    vertical-align: middle;
+    font-family: var(--fonte-icone);
+}
+
+.transmissao > img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.transmissao a{
+    text-decoration: none;
+    text-align: left;
+    color: var(--branco-azulado);
+    font-weight: bold;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.144);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.youtube, .facebook{
+    padding: 15px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px 10px 10px 10px;
+    padding: px;
+}
+
+.youtube-logo, .facebook-logo{
+    max-width: 30px;
+    max-height: 20px;
+    /* display: block; */
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.116);
+    border-radius: 5px;
+
+}
+.youtube{
+    background-color: var(--cor-youtube);
+}
+
+.facebook{
+    background-color: var(--cor-facebook);
+}
+
+.youtube:hover{
+    background-color: #d60000;
+}
+
+.facebook:hover{
+    background-color: #1468ce;
+}
+
+.transmissao p{
+    display: inline-block;
+    vertical-align: middle;
+    margin: -10px 5px 0px 5px;
+}
+
+.nosso-paroco{
+    margin: 30px 20px;
+    text-align: center;
+}
+
+.nosso-paroco h2{
+    margin: 20px 0px 20px 0px;
+    color: var(--azul-principal);
+    text-align: center;
+    font-family: var(--fonte-serif);
+    font-size: 1.4em;
+}
+
+.nosso-paroco h3{
+    color: var(--azul-principal);
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+
+.nosso-paroco > p{
+    color: var(--azul-medio);
+}
+
+.nosso-paroco img{
+    max-width: 60%;
+    border-radius: 50%;
+    margin: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.248);
+}
+
+.nosso-paroco article{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.167);
+    border-radius: 10px;
+    margin: 0px 0px 40px 0px;
+}
+
+article p{
+    text-align: justify;
+    background-color: var(--azul-principal);
+    padding: 15px;
+    border-radius: 5px;
+    color: var(--branco-azulado);
+    font-weight: 500;
+    line-height: 1.4em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.167);
+
+}
+
+.nosso-paroco a{
+    text-decoration: none;
+    background-color: var(--azul-minimo);
+    color: var(--azul-medio);
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+.nosso-paroco a:hover{
+    background-color: var(--azul-medio);
+}
+
+.nosso-paroco a::after{
+    content: var(--seta-direita);
+    font-family: var(--fonte-icone);
+    vertical-align: middle;
+    padding-left: 5px;
+}
