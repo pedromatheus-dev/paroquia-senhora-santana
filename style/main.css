@@ -220,6 +220,7 @@ article p{
 
 .nosso-paroco a:hover{
     background-color: var(--azul-medio);
+    color: var(--branco-azulado);
 }
 
 .nosso-paroco a::after{
