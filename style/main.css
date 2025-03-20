@@ -1,31 +1,31 @@
 .bem-vindo{
-    padding: 10px;
-    margin: 10px 0px 30px 0px;
+    margin: 20px 20px 40px 20px;
 }
 
 .bem-vindo img{
     max-width: 100%;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.29);
-    border-radius: 2px;
-    margin: 20px 0px;
+    border-radius: 3px;
+    margin-bottom: 20px;
 }
 
 .bem-vindo h1{
     color: var(--azul-principal);
     font-family: var(--fonte-serif);
-    font-size: 1.7em;
+    font-size: 1.8em;
 }
 
 .bem-vindo p{
     text-align: justify;
-    margin: 10px 0px 20px 0px;
+    margin: 20px 0px;
+    font-weight: 500;
 }
 
 .bem-vindo a{
     text-decoration: none;
     color: var(--branco-azulado);
     background-color: var(--azul-principal);
-    margin-top: 10px;
+    margin-top: 40px;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.26);
