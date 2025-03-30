@@ -60,7 +60,6 @@
             max-height: 300px;
             padding: 10px 0px;
             border-bottom: 5px solid var(--azul-principal);
-            margin-bottom: 30px;
         }
 
         header > a{
@@ -106,6 +105,121 @@
             margin: 2px 0px;
             color: var(--branco-azulado);
         }
+
+        main{
+            padding: 20px;
+        }
+
+        h1, h2, h3{
+            font-family: var(--fonte-serif);
+        }
+
+        section.bem-vindo{
+            margin-bottom: 50px;
+            display: block;
+        }
+
+        section.bem-vindo img{
+            display: block;
+            margin: auto;
+            width: 370px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.358);
+            margin: 0px 0px 20px 0px;
+        }
+
+        /* #conteudo-bem-vindo{
+            margin-left: 10px;
+        } */
+
+        section.bem-vindo h1{
+            color: var(--azul-principal);
+            margin-bottom: 10px;
+        }
+
+        section.bem-vindo p {
+            font-weight: 500;
+            text-align: justify;
+            margin-bottom: 15px;
+            line-height: 1.1;
+        }
+
+        section.bem-vindo a{
+            display: block;
+            text-align: center;
+            width: 100px;
+            background-color: var(--azul-principal);
+            color: var(--branco-azulado);
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.19);
+        }
+
+        section.horario-missas{
+            display: block;
+            background-color: var(--azul-principal);
+            padding: 30px 20px 20px 20px;
+            margin: 0px -20px;
+        }
+
+        section.horario-missas h2{
+            color: var(--branco-azulado);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        section.horario-missas p{
+            color: var(--branco-azulado);
+            margin-bottom: 5px;
+            text-align: center;
+        }
+
+        section.horario-missas strong{
+            margin: auto;
+            display: block;
+            text-align: center;
+            color: var(--azul-principal);
+            background-color: var(--branco-azulado);
+            padding: 8px;
+            border-radius: 5px;
+        }
+
+        .horario{
+            margin-bottom: 20px;
+        }
+
+
+        @media screen and (min-width: 768px) {
+
+            main{
+                /* background-color: white; */
+                max-width: 900px;
+                margin: auto;
+            }
+
+            section.bem-vindo h1{
+                font-size: 2em;
+                
+            }
+
+            section.bem-vindo p{
+                font-size: 1.1em
+            }
+            
+            
+            section.bem-vindo{
+                height: 100%;
+                columns: 2;
+            }
+
+            section.bem-vindo img{
+                max-width: 900px;
+            }
+
+            #conteudo-bem-vindo{
+                padding: 0px 10px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -123,11 +237,11 @@
     </header>
     <main>
         <section class="bem-vindo">
-            <img src="#" alt="Imagem da Igreja">
-            <!-- <img src="images/foto-igreja.jpeg" alt="Imagem da Igreja"> -->
-            <div>
+            <!-- <img src="#" alt="Imagem da Igreja"> -->
+            <img src="images/foto-igreja.jpeg" alt="Imagem da Igreja">
+            <div id="conteudo-bem-vindo">
                 <h1>Bem-vindo(a)</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus maiores provident laudantium quidem quas, non officiis facilis iure nisi omnis repellendus, ducimus sunt corporis illo exercitationem expedita culpa magni corrupti!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus maiores provident laudantium quidem quas, non officiis facilis iure nisi omnis repellendus, ducimus sunt corporis illo exercitationem expedita culpa magni corrupti! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, facilis! Consectetur necessitatibus quae repudiandae vitae sit quod, repellendus, velit.</p>
                 <a href="sobre-a-igreja.html">Saiba Mais</a>
             </div>
         </section>
@@ -189,6 +303,7 @@
         function mostrarMenu(){
             if (itens.style.display == "none"){
                 itens.style.display = "block";
+                itens.style.transition = "display 1s";
                 cabecalho.style.borderBottom = "0px solid #fff"
             }else{
                 itens.style.display = "none";
