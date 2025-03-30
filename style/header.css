@@ -58,5 +58,3 @@ nav .sobre::after{
     content: "\e313";
     font-family: var(--fonte-icone);
 }
-
-/* resolver o que acontece com o submenu de Sobre */
