@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Início | Paróquia Senhora Santana</title>
     <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/flexbox.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
-    <style>
+    <!-- <style>
         @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0");
 
         @import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
@@ -252,7 +253,7 @@
                 padding: 0px 10px;
             }
         }
-    </style>
+    </style> -->
 </head>
 <body>
     <header id="cabecalho">
@@ -273,58 +274,78 @@
             <img src="images/foto-igreja.jpeg" alt="Imagem da Igreja">
             <div id="conteudo-bem-vindo">
                 <h1>Bem-vindo(a)</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus maiores provident laudantium quidem quas, non officiis facilis iure nisi omnis repellendus, ducimus sunt corporis illo exercitationem expedita culpa magni corrupti! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, facilis! Consectetur necessitatibus quae repudiandae vitae sit quod, repellendus, velit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo voluptates vero dolorum incidunt animi labore deserunt veniam fugit officia quasi non tenetur minima, recusandae sapiente minus inventore nisi in blanditiis?
+                Doloribus, eius? Aliquam, nesciunt. Soluta libero assumenda accusantium quo perferendis quod nostrum iste delectus, odit adipisci iure atque nemo magnam reiciendis a tempore, laudantium cumque natus quidem repellendus dolores ratione.
+                Veritatis rem voluptates dolorum nulla ab earum vitae neque optio, voluptatum laudantium harum distinctio repellat! Aut tempora cupiditate magnam commodi, quia qui nulla veritatis harum facere reiciendis, quidem necessitatibus maxime?
+                Obcaecati rerum voluptatem odit explicabo, fuga quae enim itaque ipsa, labore omnis delectus sint sequi accusamus facilis adipisci deleniti distinctio sed maiores! Odit ipsa accusantium aliquam rem iste mollitia excepturi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum accusantium nesciunt iusto impedit magnam a aliquid eveniet amet repellat temporibus iure, error voluptatum, id facere odit eligendi quod. Suscipit, illum.
+                Assumenda iste placeat ipsa harum nulla consequatur quam dicta quisquam numquam? Modi blanditiis sequi dolorum, similique eius dolor eveniet quos architecto explicabo, impedit voluptatum sint dolore? Culpa autem aperiam at.
+                Id odit repellendus adipisci quia esse blanditiis ipsa saepe, veritatis modi! Officiis nobis, nemo sunt fuga, iure ad enim est, quos officia cupiditate quaerat eaque. Quae nulla harum id pariatur.</p>
                 <a href="sobre-a-igreja.html">Saiba Mais</a>
             </div>
         </section>
         <section class="horario-missas">
             <h2>Horário das Missas</h2>
-            <div class="horario">
-                <p>Terça-Feira, Quarta-Feira e Sexta-Feira</p>
-                <strong>às 17h na Igreja Matriz</strong>
-            </div>
-            <div class="horario">
-                <p>Quinta-Feira</p>
-                <strong>às 19h na Igreja Matriz</strong>
-            </div>
-            <div class="horario">
-                <p>Sábado</p>
-                <strong>às 18h30 na Igreja Matriz</strong>
-            </div>
-            <div class="horario">
-                <p>Domingo</p>
-                <strong>às 08h e 19h na Igreja Matriz</strong>
-            </div>
-            <div class="transmissao">
-                <h3>Transmissão Ao Vivo</h3>
-                <img src="#" alt="Capa da Santa Missa">
-                <!-- <img src="images/capa-santa-missa.png" alt="Capa da Santa Missa"> -->
-                <div class="youtube">
-                    <a href="">
-                        <img src="#" alt="YouTube" class="youtube-logo">
-                        <!-- <img src="images/youtube-logo.png" alt="YouTube" class="youtube-logo"> -->
-                        <p>YouTube</p>
-                    </a>
+            <div class="conteudo-horario-missas">
+                <div class="horarios">
+                    <div class="horario">
+                        <p>Terça-Feira</p>
+                        <strong>às 17h na Igreja Matriz</strong>
+                    </div>
+                    <div class="horario">
+                        <p>Quarta-Feira</p>
+                        <strong>às 17h na Igreja Matriz</strong>
+                    </div>
+                    <div class="horario">
+                        <p>Quinta-Feira</p>
+                        <strong>às 19h na Igreja Matriz</strong>
+                    </div>
+                    <div class="horario">
+                        <p>Sexta-Feira</p>
+                        <strong>às 17h na Igreja Matriz</strong>
+                    </div>
+                    <div class="horario">
+                        <p>Sábado</p>
+                        <strong>às 18h30 na Igreja Matriz</strong>
+                    </div>
+                    <div class="horario">
+                        <p>Domingo</p>
+                        <strong>às 08h e 19h na Igreja Matriz</strong>
+                    </div>
                 </div>
-                <div class="facebook">
-                    <a href="">
-                        <img src="#" alt="Facebook" class="facebook-logo">
-                        <!-- <img src="images/facebook-logo.png" alt="Facebook" class="facebook-logo"> -->
-                        <p>Facebook</p>
-                    </a>
+                <div class="transmissao">
+                    <h3>Transmissão Ao Vivo</h3>
+                    <img src="images/capa-santa-missa.png" alt="Capa da Santa Missa">
+                    <div class="redes-sociais">
+                        <div class="youtube">
+                            <a href="">
+                                <img src="images/youtube-logo.png" alt="YouTube" class="youtube-logo">
+                                <p>YouTube</p>
+                            </a>
+                        </div>
+                        <div class="facebook">
+                            <a href="">
+                                <img src="images/facebook-logo.png" alt="Facebook" class="facebook-logo">
+                                <p>Facebook</p>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <section class="nosso-paroco">
             <h2>Nosso Pároco</h2>
-            <h3>Pe. Junior Melo</h3>
-            <p>2024 - Atualmente</p>
-            <img src="#" alt="Imagem do Pe. Junior Melo">
-            <!-- <img src="images/padres/pe-junior-melo.png" alt="Imagem do Pe. Junior Melo"> -->
-            <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quidem aut praesentium dicta perferendis eaque facilis animi rem minima! Quibusdam magni eligendi voluptatem omnis sapiente expedita. Repellendus quod ullam soluta.</p>
-            </article>
-            <a href="sobre-os-padres.html">Conheça nossos últimos Párocos</a>
+            <div class="info-padre">
+                <div class="padre">
+                    <h3>Pe. Junior Melo</h3>
+                    <p>2024 - Atualmente</p>
+                    <img src="images/padres/pe-junior-melo.png" alt="Imagem do Pe. Junior Melo">
+                </div>
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorem aperiam quia eaque deleniti possimus dolores voluptas pariatur ratione nemo. Fugiat tempore, maxime tempora quasi similique laboriosam nihil rem magni!
+                    Atque nulla error omnis maxime dolores quos, sequi aut doloremque quam vero praesentium inventore repudiandae optio fugit blanditiis aliquam placeat architecto sint? Amet fugiat dolor ducimus nihil id. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum sit impedit asperiores nisi beatae iste similique! Consequuntur quaerat voluptas in aliquid, blanditiis magni ducimus, reiciendis quo corrupti tenetur alias enim? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium placeat aut, libero est accusamus voluptate nostrum. Eveniet, fugiat amet pariatur nisi laudantium modi, voluptate commodi illum sunt, provident perferendis repellat!</p>
+                    <a href="sobre-os-padres.html">Nossos Párocos</a>
+                </article>
+            </div>
         </section>
     </main>
     <footer>
